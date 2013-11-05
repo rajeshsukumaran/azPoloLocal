@@ -48,6 +48,7 @@
     NSLog(@"response from receivedResponse %@",parsedResponse);
     dbExecute *dbexe=[[dbExecute alloc]init ];
     [dbexe insertIntoUserTable:parsedResponse];
+	[dbexe insertIntoSegmentTable:parsedResponse];
   
 }
 

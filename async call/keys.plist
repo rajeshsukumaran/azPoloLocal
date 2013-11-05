@@ -6,48 +6,48 @@
 	<dict>
 		<key>ResultData</key>
 		<dict>
-			<key>Aliasdb</key>
+			<key>Alias</key>
 			<string>Alias</string>
-			<key>UserIDdb</key>
+			<key>UserID</key>
 			<string>UserID</string>
-			<key>UserGroupIDdb</key>
+			<key>UserGroupID</key>
 			<string>UserGroupID</string>
-			<key>FirstNamedb</key>
+			<key>firstName</key>
 			<string>FirstName</string>
-			<key>LastNamedb</key>
+			<key>lastName</key>
 			<string>FirstName</string>
-			<key>NTLoginIDdb</key>
+			<key>NTLoginID</key>
 			<string>NTLoginID</string>
-			<key>SecurityLeveldb</key>
+			<key>SecurityLevel</key>
 			<string>SecurityLevel</string>
-			<key>LangIDdb</key>
+			<key>LangID</key>
 			<string>LangID</string>
-			<key>LangSiteIDdb</key>
+			<key>LangSiteID</key>
 			<string>LangSiteID</string>
-			<key>EmailIDdb</key>
+			<key>EmailID</key>
 			<string>EmailID</string>
-			<key>DealerCodedb</key>
+			<key>DealerCode</key>
 			<string>DealerCode</string>
-			<key>ShowImagesdb</key>
+			<key>ShowImages</key>
 			<string>ShowImages</string>
-			<key>IsExhibitsModedb</key>
+			<key>IsExhibitsMode</key>
 			<string>IsExhibitsMode</string>
 			<key>UserBrandsList</key>
 			<dict>
-				<key>BrandNamedb</key>
+				<key>BrandName</key>
 				<string>BrandName</string>
-				<key>IsVisibledb</key>
+				<key>isVisible</key>
 				<string>IsVisible</string>
-				<key>IsSegmentdb</key>
+				<key>isSegment</key>
 				<string>IsSegment</string>
 			</dict>
 			<key>SegmentList</key>
 			<dict>
-				<key>SegmentIDdb</key>
+				<key>SegmentID</key>
 				<string>SegmentID</string>
-				<key>SegmentENdb</key>
+				<key>SegmentEN</key>
 				<string>SegmentEN</string>
-				<key>SegmentFRdb</key>
+				<key>SegmentFR</key>
 				<string>SegmentFR</string>
 			</dict>
 		</dict>

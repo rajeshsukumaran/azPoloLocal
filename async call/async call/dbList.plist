@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tblBrands</key>
+	<dict>
+		<key>isVisible</key>
+		<string>string</string>
+		<key>isSegment</key>
+		<string>string</string>
+		<key>BrandName</key>
+		<string>string</string>
+	</dict>
+	<key>tblSegments</key>
+	<dict>
+		<key>SegmentID</key>
+		<string>string</string>
+		<key>SegmentEN</key>
+		<string>string</string>
+		<key>SegmentFR</key>
+		<string>string</string>
+	</dict>
+	<key>tbleUser</key>
+	<dict>
+		<key>UserID</key>
+		<string>string</string>
+		<key>firstName</key>
+		<string>string</string>
+		<key>lastName</key>
+		<string>string</string>
+		<key>Alias</key>
+		<string>string</string>
+		<key>NTLoginID</key>
+		<string>string</string>
+		<key>LangID</key>
+		<string>string</string>
+		<key>UserGroupID</key>
+		<string>string</string>
+		<key>EmailID</key>
+		<string>string</string>
+		<key>ShowImages</key>
+		<string>string</string>
+		<key>IsExhibitsMode</key>
+		<string>string</string>
+		<key>DealerCode</key>
+		<string>string</string>
+	</dict>
+</dict>
+</plist>

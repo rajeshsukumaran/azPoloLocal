@@ -89,9 +89,16 @@ NSMutableData *_responseData;
 			{
 				emptycheck=TRUE;
 			}
-			else if ([ServiceResponse objectForKey:str])
+			else if ([ServiceResponse isKindOfClass:[NSDictionary class]])
 			{
+				
+				
 				emptycheck=TRUE;
+			}
+			else if ([ServiceResponse isKindOfClass:[NSString class]])
+			{
+				
+					emptycheck=TRUE;
 			}
 			NSDictionary *definitionForKey=[definition objectForKey:str];
 			if (emptycheck) {
@@ -102,8 +109,19 @@ NSMutableData *_responseData;
 						@try{
 							if([[serviceResponseForKey objectForKey:str]isKindOfClass:[NSDictionary class]]==[[definitionForKey objectForKey:str]isKindOfClass:[NSDictionary class]])
 							{
-								temp= [[self parseJson:serviceResponseForKey withDefinition:definitionForKey keyForRecursion:str] mutableCopy];
-								[returnMutableDictionary setValue:temp forKey:str];
+								@try {
+									temp= [[self parseJson:serviceResponseForKey withDefinition:definitionForKey keyForRecursion:str] mutableCopy];
+									if(temp)
+										[returnMutableDictionary setValue:temp forKey:str];
+									else
+										[returnMutableDictionary setValue:@"" forKey:str];
+									
+								}
+								@catch (NSException *exception) {
+									NSLog(@"value not found error with exception reason: %@",[exception reason]);
+								}
+								
+								
 							}
 						}
 						@catch (NSException *exception)
@@ -127,8 +145,19 @@ NSMutableData *_responseData;
 									@try{
 										if([[internalDic objectForKey:itr]isKindOfClass:[NSDictionary class]]==[[definitionForKey objectForKey:itr]isKindOfClass:[NSDictionary class]])
 										{
-											temp= [[self parseJson:[internalDic objectForKey:itr] withDefinition:[definitionForKey objectForKey:itr] keyForRecursion:itr] mutableCopy];
-											[returnMutableDictionary setValue:temp forKey:str];
+											
+											@try {
+												temp= [[self parseJson:[internalDic objectForKey:itr] withDefinition:[definitionForKey objectForKey:itr] keyForRecursion:itr] mutableCopy];
+												if(temp)
+													[returnMutableDictionary setValue:temp forKey:str];
+												else
+													[returnMutableDictionary setValue:@"" forKey:str];
+											}
+											@catch (NSException *exception) {
+												NSLog(@"value not found error with exception reason: %@",[exception reason]);
+											}
+											
+											
 										}
 									}
 									@catch (NSException *exception)
@@ -144,7 +173,20 @@ NSMutableData *_responseData;
 				}
 				else if ([[ServiceResponse objectForKey:str]isKindOfClass:[NSString class]]||[[NSNumber numberWithInt:[[ServiceResponse objectForKey:str] intValue]] isKindOfClass:[NSNumber class]])
 				{
-					[returnMutableDictionary setValue:[ServiceResponse objectForKey:[definition objectForKey:str]] forKey:str];
+					
+					@try {
+						NSString * value=[ServiceResponse objectForKey:[definition objectForKey:str]];
+						if(value)
+							[returnMutableDictionary setValue:value forKey:str];
+						else
+							[returnMutableDictionary setValue:@"" forKey:str];
+					}
+					@catch (NSException *exception) {
+						NSLog(@"value not found error with exception reason: %@",[exception reason]);
+					}
+					
+					NSString * value=[ServiceResponse objectForKey:[definition objectForKey:str]];
+					
 				}
 				else
 				{
@@ -158,9 +200,7 @@ NSMutableData *_responseData;
 	{
 		NSLog(@"method call failed with exception reason: %@",[exception reason]);
 	}
-	@finally {
-		returnDictionary=[NSDictionary dictionaryWithDictionary:nil];
-	}
+
 	return returnDictionary;
 	// return Nil;
 }

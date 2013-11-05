@@ -8,25 +8,12 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "dbExecute.m"
-         timestampString = "405267529.771657"
+         timestampString = "405343774.195036"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "15"
-         endingLineNumber = "15"
-         landmarkName = "-insertIntoUserTable:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "asyncServiceCall.m"
-         timestampString = "405325486.092867"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "77"
-         endingLineNumber = "77"
-         landmarkName = "-parseJson:withDefinition:keyForRecursion:"
+         startingLineNumber = "53"
+         endingLineNumber = "53"
+         landmarkName = "-insertIntoSegmentTable:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

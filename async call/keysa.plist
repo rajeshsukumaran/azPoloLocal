@@ -6,48 +6,50 @@
 	<dict>
 		<key>ResultData</key>
 		<dict>
-			<key>Alias</key>
+			<key>asfd</key>
+			<string>asdf</string>
+			<key>Aliasdb</key>
 			<string>Alias</string>
-			<key>UserID</key>
+			<key>UserIDdb</key>
 			<string>UserID</string>
-			<key>UserGroupID</key>
+			<key>UserGroupIDdb</key>
 			<string>UserGroupID</string>
-			<key>FirstName</key>
+			<key>FirstNamedb</key>
 			<string>FirstName</string>
-			<key>LastName</key>
+			<key>LastNamedb</key>
 			<string>FirstName</string>
-			<key>NTLoginID</key>
+			<key>NTLoginIDdb</key>
 			<string>NTLoginID</string>
-			<key>SecurityLevel</key>
+			<key>SecurityLeveldb</key>
 			<string>SecurityLevel</string>
-			<key>LangID</key>
+			<key>LangIDdb</key>
 			<string>LangID</string>
-			<key>LangSiteID</key>
+			<key>LangSiteIDdb</key>
 			<string>LangSiteID</string>
-			<key>EmailID</key>
+			<key>EmailIDdb</key>
 			<string>EmailID</string>
-			<key>DealerCode</key>
+			<key>DealerCodedb</key>
 			<string>DealerCode</string>
-			<key>ShowImages</key>
+			<key>ShowImagesdb</key>
 			<string>ShowImages</string>
-			<key>IsExhibitsMode</key>
+			<key>IsExhibitsModedb</key>
 			<string>IsExhibitsMode</string>
 			<key>UserBrandsList</key>
 			<dict>
-				<key>BrandName</key>
+				<key>BrandNamedb</key>
 				<string>BrandName</string>
-				<key>IsVisible</key>
+				<key>IsVisibledb</key>
 				<string>IsVisible</string>
-				<key>IsSegment</key>
+				<key>IsSegmentdb</key>
 				<string>IsSegment</string>
 			</dict>
 			<key>SegmentList</key>
 			<dict>
-				<key>SegmentID</key>
+				<key>SegmentIDdb</key>
 				<string>SegmentID</string>
-				<key>SegmentEN</key>
+				<key>SegmentENdb</key>
 				<string>SegmentEN</string>
-				<key>SegmentFR</key>
+				<key>SegmentFRdb</key>
 				<string>SegmentFR</string>
 			</dict>
 		</dict>

@@ -19,6 +19,7 @@
 		67329A621826987C001231C0 /* jsonParserBasedOnPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 67329A611826987C001231C0 /* jsonParserBasedOnPlist.m */; };
 		6737DD261827D58E005E0975 /* PoloDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 6737DD251827D58E005E0975 /* PoloDB.sqlite */; };
 		6737DD291827D748005E0975 /* dbExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6737DD281827D748005E0975 /* dbExecute.m */; };
+		67D380B71828FD9000A2E5A1 /* dbList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 67D380B61828FD9000A2E5A1 /* dbList.plist */; };
 		96284E331817CB610083EF53 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96284E321817CB610083EF53 /* UIKit.framework */; };
 		96284E351817CB610083EF53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96284E341817CB610083EF53 /* Foundation.framework */; };
 		96284E371817CB610083EF53 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96284E361817CB610083EF53 /* CoreGraphics.framework */; };
@@ -54,6 +55,7 @@
 		6737DD251827D58E005E0975 /* PoloDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PoloDB.sqlite; sourceTree = "<group>"; };
 		6737DD271827D748005E0975 /* dbExecute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbExecute.h; sourceTree = "<group>"; };
 		6737DD281827D748005E0975 /* dbExecute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbExecute.m; sourceTree = "<group>"; };
+		67D380B61828FD9000A2E5A1 /* dbList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dbList.plist; sourceTree = "<group>"; };
 		96284E2F1817CB610083EF53 /* async call.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "async call.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96284E321817CB610083EF53 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		96284E341817CB610083EF53 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +152,7 @@
 				96284E411817CB610083EF53 /* AppDelegate.h */,
 				96284E421817CB610083EF53 /* AppDelegate.m */,
 				96284E551817CBD30083EF53 /* asyncServiceCall.h */,
+				67D380B61828FD9000A2E5A1 /* dbList.plist */,
 				96284E561817CBD30083EF53 /* asyncServiceCall.m */,
 				96284E4A1817CB610083EF53 /* MainStoryboard.storyboard */,
 				96284E4D1817CB610083EF53 /* ViewController.h */,
@@ -232,6 +235,7 @@
 				1897CACA18211388005C8C78 /* keys.plist in Resources */,
 				185137F41823CD4A0001C0DB /* sample.txt in Resources */,
 				6737DD261827D58E005E0975 /* PoloDB.sqlite in Resources */,
+				67D380B71828FD9000A2E5A1 /* dbList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

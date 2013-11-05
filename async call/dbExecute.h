@@ -10,5 +10,7 @@
 
 @interface dbExecute : NSObject
 -(void)insertIntoUserTable:(NSDictionary *)bundle;
+-(void)insertIntoSegmentTable:(NSDictionary *)bundle;
+
 
 @end
