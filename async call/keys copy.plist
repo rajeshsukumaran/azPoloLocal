@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GetAuthorisedUserDetailsResult</key>
+	<dict>
+		<key>ResultData</key>
+		<dict>
+			<key>Alias</key>
+			<string>Alias</string>
+			<key>UserID</key>
+			<string>UserID</string>
+			<key>UserGroupID</key>
+			<string>UserGroupID</string>
+			<key>FirstName</key>
+			<string>FirstName</string>
+			<key>LastName</key>
+			<string>FirstName</string>
+			<key>NTLoginID</key>
+			<string>NTLoginID</string>
+			<key>SecurityLevel</key>
+			<string>SecurityLevel</string>
+			<key>LangID</key>
+			<string>LangID</string>
+			<key>LangSiteID</key>
+			<string>LangSiteID</string>
+			<key>EmailID</key>
+			<string>EmailID</string>
+			<key>DealerCode</key>
+			<string>DealerCode</string>
+			<key>ShowImages</key>
+			<string>ShowImages</string>
+			<key>IsExhibitsMode</key>
+			<string>IsExhibitsMode</string>
+			<key>UserBrandsList</key>
+			<dict>
+				<key>BrandName</key>
+				<string>BrandName</string>
+				<key>IsVisible</key>
+				<string>IsVisible</string>
+				<key>IsSegment</key>
+				<string>IsSegment</string>
+			</dict>
+			<key>SegmentList</key>
+			<dict>
+				<key>SegmentID</key>
+				<string>SegmentID</string>
+				<key>SegmentEN</key>
+				<string>SegmentEN</string>
+				<key>SegmentFR</key>
+				<string>SegmentFR</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

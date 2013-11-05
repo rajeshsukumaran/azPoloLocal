@@ -1,0 +1,275 @@
+{
+    "GetAuthorisedUserDetailsResult": {
+        "ResultData": {
+            "UserID": 15028,
+            "Alias": "kkvz441",
+            "FirstName": "Chetan",
+            "LastName": "Aneja",
+            "NTLoginID": "AMERICASkkvz441",
+            "SecurityLevel": "0",
+            "LangID": 3,
+            "LangSiteID": 1,
+            "UserBrandsList": [
+                {
+                    "BrandName": "Admin.Material",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Arimidex",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "AskMedical",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "AtmyBest",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Atacand",
+                    "IsVisible": true,
+                    "IsSegment": true
+                },
+                {
+                    "BrandName": "Brilinta",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Caprelsa",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "CI",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Crestor",
+                    "IsVisible": true,
+                    "IsSegment": true
+                },
+                {
+                    "BrandName": "CrestorHealthyChanges",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "CVProjects",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "DigitalMedia",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Diprivan",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Emla",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Faslodex",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Flumist",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "GI",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "GU-Oncology",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "HERE",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Imdur",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Iressa",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "LASR",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Merrem",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Miscellaneous",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Naropin",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Neuroscience",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Nexium",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Onglyza",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Onglyza-Margot",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "PE",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "PharmacyInitiatives",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Plendil",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Pulmicort",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "RESP",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Seroquel",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Symbicort",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Unknown",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Uro-Oncology",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Uro-Oncology-Maryann",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Vimovo",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Vimovo-Kaila",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "VirtualConsults",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Zendra",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "Zoladex",
+                    "IsVisible": true,
+                    "IsSegment": false
+                },
+                {
+                    "BrandName": "ZoladexBreastCancer",
+                    "IsVisible": true,
+                    "IsSegment": false
+                }
+            ],
+            "SegmentList": [
+                {
+                    "SegmentID": 0,
+                    "SegmentEN": "ALLSEGMENTS",
+                    "SegmentFR": "ALLSEGMENTS"
+                },
+                {
+                    "SegmentID": 1,
+                    "SegmentEN": "RATIONALIST",
+                    "SegmentFR": "RATIONALIST"
+                },
+                {
+                    "SegmentID": 2,
+                    "SegmentEN": "ACHIEVER",
+                    "SegmentFR": "ACHIEVER"
+                },
+                {
+                    "SegmentID": 3,
+                    "SegmentEN": "LEADER",
+                    "SegmentFR": "LEADER"
+                },
+                {
+                    "SegmentID": 4,
+                    "SegmentEN": "SEEKER",
+                    "SegmentFR": "SEEKER"
+                }
+            ],
+            "UserGroupID": "4",
+            "EmailID": "chetan.aneja@astrazeneca.com",
+            "DealerCode": "",
+            "ShowImages": 0,
+            "IsExhibitsMode": false
+        },
+        "StatusCode": "0",
+        "StatusMessage": "Successful"
+    }
+}
