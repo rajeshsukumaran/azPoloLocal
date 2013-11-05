@@ -49,6 +49,8 @@
     dbExecute *dbexe=[[dbExecute alloc]init ];
     [dbexe insertIntoUserTable:parsedResponse];
 	[dbexe insertIntoSegmentTable:parsedResponse];
+	[dbexe insertIntoBrandTable:parsedResponse];
+
   
 }
 

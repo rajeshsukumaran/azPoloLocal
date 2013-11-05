@@ -48,14 +48,16 @@
 
 
 }
--(void)insertIntoSegmentTable:(NSDictionary *)bundle;
+-(void)insertArrayIntoDBTable:(NSArray *)arrayBundle dbTableAs:(NSString *)tableName plistDicName:(NSString *)keyName;
 {
 	NSString *insertQuery=[[NSMutableString alloc] init];
 	@try {
-		NSArray *insertData=[[[bundle objectForKey:@"GetAuthorisedUserDetailsResult"]objectForKey:@"ResultData" ] objectForKey:@"UserBrandsList"];
-		insertQuery =[insertQuery stringByAppendingString:@"INSERT INTO tblBrands ("];
+		NSArray *insertData=arrayBundle;
+		insertQuery =[insertQuery stringByAppendingString:@"INSERT INTO "];
+		insertQuery=[insertQuery stringByAppendingString:tableName];
+		insertQuery=[insertQuery stringByAppendingString:@"("];
 		NSString *path = [[NSBundle mainBundle] pathForResource:@"dbList" ofType:@"plist"];
-		NSDictionary *dbFields = [[[NSDictionary alloc] initWithContentsOfFile:path] objectForKey:@"tblBrands"];
+		NSDictionary *dbFields = [[[NSDictionary alloc] initWithContentsOfFile:path] objectForKey:keyName];
 		NSArray *keys=[dbFields allKeys];
 		for(NSString *str in keys)
 		{
@@ -96,5 +98,15 @@
 	}
 
 	
+}
+-(void)insertIntoSegmentTable:(NSDictionary *)bundle
+{
+	NSArray *argAray=[[[bundle objectForKey:@"GetAuthorisedUserDetailsResult"]objectForKey:@"ResultData" ] objectForKey:@"SegmentList"];
+	[self insertArrayIntoDBTable:argAray dbTableAs:@"tblSegments" plistDicName:@"tblSegments"];
+}
+-(void)insertIntoBrandTable:(NSDictionary *)bundle
+{
+	NSArray *argAray=[[[bundle objectForKey:@"GetAuthorisedUserDetailsResult"]objectForKey:@"ResultData" ] objectForKey:@"UserBrandsList"];
+	[self insertArrayIntoDBTable:argAray dbTableAs:@"tblBrands" plistDicName:@"tblBrands"];
 }
 @end

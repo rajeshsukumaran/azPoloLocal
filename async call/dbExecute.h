@@ -11,6 +11,8 @@
 @interface dbExecute : NSObject
 -(void)insertIntoUserTable:(NSDictionary *)bundle;
 -(void)insertIntoSegmentTable:(NSDictionary *)bundle;
+-(void)insertIntoBrandTable:(NSDictionary *)bundle;
+-(void)insertArrayIntoDBTable:(NSArray *)arrayBundle dbTableAs:(NSString *)tableName plistDicName:(NSString *)keyName;
 
 
 @end
