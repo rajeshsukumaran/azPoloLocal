@@ -70,8 +70,15 @@
 			for(NSString *str in keys)
 			{
 				NSString *value=insertData[i][str];
-				insertQuery =[insertQuery stringByAppendingFormat:@"\"%@\"",value];
-				insertQuery =[insertQuery stringByAppendingString:@","];
+				if(value)
+				{
+					insertQuery =[insertQuery stringByAppendingFormat:@"\"%@\"",value];
+					insertQuery =[insertQuery stringByAppendingString:@","];
+				}
+				else
+				{
+					NSLog(@"row skipped because null or empty value found");
+				}
 			}
 			insertQuery =[insertQuery substringToIndex:([insertQuery length]-1)];
 			insertQuery =[insertQuery stringByAppendingString:@"),"];
